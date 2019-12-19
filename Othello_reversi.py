@@ -107,7 +107,7 @@ class Reversi(QWidget):
                                 font: 45px;
                                 color: white 
                                 """)
-        #흑 플레이어의 딴 돌의 갯수를 보여주는 버튼
+        #백 플레이어의 딴 돌의 갯수를 보여주는 버튼
         self.w = QPushButton(self.labelTools)
         self.w.setGeometry(20, 55, 100, 100)
         self.w.setStyleSheet("""
